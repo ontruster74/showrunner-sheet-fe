@@ -6,6 +6,9 @@ import './App.css'
 function App() {
   return (
     <Router>
+      <div className="bg-blue-500 text-white p-4 rounded shadow">
+        Tailwind is working!
+      </div>
       <NavBar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
